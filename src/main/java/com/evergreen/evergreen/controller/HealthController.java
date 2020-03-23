@@ -10,7 +10,15 @@ public class HealthController {
 
     @GetMapping("/health")
     public ResponseEntity<String> healthz (){
+
+        String test;
+
+        if(test!=null){
+            return new ResponseEntity<String>("Ok", HttpStatus.OK);
+        }
+
         return new ResponseEntity<String>("Ok", HttpStatus.OK);
+        
     }
 
 }
