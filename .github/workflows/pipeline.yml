@@ -2,6 +2,7 @@ on: push
 
 jobs:
   hello:
+    runs-on: ubuntu-latest
     steps:
       - name: Echo Hello
         run: echo 'Hello Emma this is a simple pipeline'
