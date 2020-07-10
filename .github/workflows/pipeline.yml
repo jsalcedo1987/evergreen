@@ -1,0 +1,7 @@
+on: push
+
+jobs:
+  hello:
+    steps:
+      - name: Echo Hello
+        run: echo 'Hello Emma this is a simple pipeline'
